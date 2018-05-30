@@ -1,0 +1,1144 @@
+2018-05-29 08:13:44.519  INFO 13664 --- [restartedMain] c.n.form.NetbotContactFormApplication    : Starting NetbotContactFormApplication on B2ML23319 with PID 13664 (/opt/workspaces/sts_code/netbot-contact-form/bin/main started by bmuthuna in /opt/workspaces/sts_code/netbot-contact-form)
+2018-05-29 08:13:44.523  INFO 13664 --- [restartedMain] c.n.form.NetbotContactFormApplication    : No active profile set, falling back to default profiles: default
+2018-05-29 08:13:44.575  INFO 13664 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@14cab190: startup date [Tue May 29 08:13:44 IST 2018]; root of context hierarchy
+2018-05-29 08:13:45.785  INFO 13664 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$af4aa3ca] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-29 08:13:46.208  INFO 13664 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-05-29 08:13:46.237  INFO 13664 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-29 08:13:46.237  INFO 13664 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-29 08:13:46.243  INFO 13664 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-05-29 08:13:46.342  INFO 13664 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-29 08:13:46.343  INFO 13664 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1768 ms
+2018-05-29 08:13:46.524  INFO 13664 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-05-29 08:13:46.526  INFO 13664 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet webServlet mapped to [/h2-console/*]
+2018-05-29 08:13:46.531  INFO 13664 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-29 08:13:46.532  INFO 13664 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-29 08:13:46.533  INFO 13664 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-29 08:13:46.534  INFO 13664 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-29 08:13:47.013  INFO 13664 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[159.65.157.17:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-05-29 08:13:47.653  INFO 13664 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 08:13:47.940  INFO 13664 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@14cab190: startup date [Tue May 29 08:13:44 IST 2018]; root of context hierarchy
+2018-05-29 08:13:47.988  INFO 13664 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/invokejob]}" onto public java.lang.String com.netbot.form.batch.test.JobInvokerController.handle() throws java.lang.Exception
+2018-05-29 08:13:47.992  INFO 13664 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-29 08:13:47.993  INFO 13664 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-29 08:13:48.021  INFO 13664 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 08:13:48.022  INFO 13664 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 08:13:48.179  INFO 13664 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-05-29 08:13:48.294  INFO 13664 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-05-29 08:13:48.308  INFO 13664 --- [restartedMain] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: H2
+2018-05-29 08:13:48.328  INFO 13664 --- [restartedMain] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2018-05-29 08:13:48.346  INFO 13664 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/springframework/batch/core/schema-h2.sql]
+2018-05-29 08:13:48.358  INFO 13664 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/springframework/batch/core/schema-h2.sql] in 12 ms.
+2018-05-29 08:13:48.505  INFO 13664 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/quartz/impl/jdbcjobstore/tables_h2.sql]
+2018-05-29 08:13:48.524  INFO 13664 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/quartz/impl/jdbcjobstore/tables_h2.sql] in 19 ms.
+2018-05-29 08:13:48.557  INFO 13664 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-05-29 08:13:48.570  INFO 13664 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-05-29 08:13:48.570  INFO 13664 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2018-05-29 08:13:48.571  INFO 13664 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-05-29 08:13:48.572  INFO 13664 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-05-29 08:13:48.572  INFO 13664 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-05-29 08:13:48.572  INFO 13664 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2018-05-29 08:13:48.572  INFO 13664 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@70708838
+2018-05-29 08:13:48.676  INFO 13664 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-05-29 08:13:48.713  INFO 13664 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-05-29 08:13:48.715  INFO 13664 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-29 08:13:48.720  INFO 13664 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-29 08:13:48.724  INFO 13664 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-05-29 08:13:48.725  INFO 13664 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2018-05-29 08:13:48.725  INFO 13664 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-05-29 08:13:48.762  INFO 13664 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-29 08:13:48.765  INFO 13664 --- [restartedMain] c.n.form.NetbotContactFormApplication    : Started NetbotContactFormApplication in 4.671 seconds (JVM running for 5.74)
+2018-05-29 08:13:52.746  INFO 13664 --- [cluster-ClusterId{value='5b0cbe63f6007435601c8bbc', description='null'}-159.65.157.17:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:955}] to 159.65.157.17:27017
+2018-05-29 08:13:53.255  INFO 13664 --- [cluster-ClusterId{value='5b0cbe63f6007435601c8bbc', description='null'}-159.65.157.17:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=159.65.157.17:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 4]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=505781147}
+2018-05-29 08:18:05.029  INFO 13664 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-29 08:18:05.029  INFO 13664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-29 08:18:05.063  INFO 13664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 33 ms
+2018-05-29 08:18:05.240  INFO 13664 --- [http-nio-8080-exec-1] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=processJob]] launched with the following parameters: [{time=1527562085102}]
+2018-05-29 08:18:05.270  INFO 13664 --- [http-nio-8080-exec-1] o.s.batch.core.job.SimpleStepHandler     : Executing step: [orderStep1]
+2018-05-29 08:18:24.123  INFO 13664 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:956}] to 159.65.157.17:27017
+2018-05-29 08:20:07.521  INFO 13664 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-05-29 08:20:07.522  INFO 13664 --- [RMI TCP Connection(2)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@14cab190: startup date [Tue May 29 08:13:44 IST 2018]; root of context hierarchy
+2018-05-29 08:20:07.525  INFO 13664 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-05-29 08:20:07.527  INFO 13664 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-05-29 08:20:07.536  INFO 13664 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2018-05-29 08:20:07.537  INFO 13664 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2018-05-29 08:20:07.537  INFO 13664 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-05-29 08:20:07.539  INFO 13664 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-05-29 08:20:07.540  INFO 13664 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-05-29 08:20:07.541  INFO 13664 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-05-29 08:20:08.054  INFO 13664 --- [RMI TCP Connection(2)-127.0.0.1] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:956}] to 159.65.157.17:27017 because the pool has been closed.
+2018-05-29 08:20:08.065  INFO 13664 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-05-29 08:20:08.074  INFO 13664 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-05-29 08:20:25.302  INFO 13969 --- [restartedMain] c.n.form.NetbotContactFormApplication    : Starting NetbotContactFormApplication on B2ML23319 with PID 13969 (/opt/workspaces/sts_code/netbot-contact-form/bin/main started by bmuthuna in /opt/workspaces/sts_code/netbot-contact-form)
+2018-05-29 08:20:25.306  INFO 13969 --- [restartedMain] c.n.form.NetbotContactFormApplication    : No active profile set, falling back to default profiles: default
+2018-05-29 08:20:25.410  INFO 13969 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1819916c: startup date [Tue May 29 08:20:25 IST 2018]; root of context hierarchy
+2018-05-29 08:20:27.245  INFO 13969 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c2b848c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-29 08:20:27.856  INFO 13969 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-05-29 08:20:27.879  INFO 13969 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-29 08:20:27.879  INFO 13969 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-29 08:20:27.889  INFO 13969 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-05-29 08:20:27.979  INFO 13969 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-29 08:20:27.980  INFO 13969 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2570 ms
+2018-05-29 08:20:28.141  INFO 13969 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-05-29 08:20:28.146  INFO 13969 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet webServlet mapped to [/h2-console/*]
+2018-05-29 08:20:28.151  INFO 13969 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-29 08:20:28.151  INFO 13969 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-29 08:20:28.152  INFO 13969 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-29 08:20:28.155  INFO 13969 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-29 08:20:28.944  INFO 13969 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[159.65.157.17:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-05-29 08:20:29.795  INFO 13969 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 08:20:30.159  INFO 13969 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1819916c: startup date [Tue May 29 08:20:25 IST 2018]; root of context hierarchy
+2018-05-29 08:20:30.205  INFO 13969 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/invokejob]}" onto public java.lang.String com.netbot.form.batch.test.JobInvokerController.handle() throws java.lang.Exception
+2018-05-29 08:20:30.209  INFO 13969 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-29 08:20:30.209  INFO 13969 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-29 08:20:30.236  INFO 13969 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 08:20:30.237  INFO 13969 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 08:20:30.424  INFO 13969 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-05-29 08:20:30.592  INFO 13969 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-05-29 08:20:30.610  INFO 13969 --- [restartedMain] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: H2
+2018-05-29 08:20:30.634  INFO 13969 --- [restartedMain] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2018-05-29 08:20:30.668  INFO 13969 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/springframework/batch/core/schema-h2.sql]
+2018-05-29 08:20:30.681  INFO 13969 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/springframework/batch/core/schema-h2.sql] in 13 ms.
+2018-05-29 08:20:30.807  INFO 13969 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/quartz/impl/jdbcjobstore/tables_h2.sql]
+2018-05-29 08:20:30.821  INFO 13969 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/quartz/impl/jdbcjobstore/tables_h2.sql] in 14 ms.
+2018-05-29 08:20:30.859  INFO 13969 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-05-29 08:20:30.879  INFO 13969 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-05-29 08:20:30.879  INFO 13969 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2018-05-29 08:20:30.880  INFO 13969 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-05-29 08:20:30.881  INFO 13969 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-05-29 08:20:30.881  INFO 13969 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-05-29 08:20:30.881  INFO 13969 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2018-05-29 08:20:30.881  INFO 13969 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@9cdd75e
+2018-05-29 08:20:31.027  INFO 13969 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-05-29 08:20:31.067  INFO 13969 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-05-29 08:20:31.069  INFO 13969 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-29 08:20:31.075  INFO 13969 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-29 08:20:31.080  INFO 13969 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-05-29 08:20:31.080  INFO 13969 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2018-05-29 08:20:31.081  INFO 13969 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-05-29 08:20:31.116  INFO 13969 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-29 08:20:31.122  INFO 13969 --- [restartedMain] c.n.form.NetbotContactFormApplication    : Started NetbotContactFormApplication in 6.382 seconds (JVM running for 7.119)
+2018-05-29 08:20:32.731  INFO 13969 --- [cluster-ClusterId{value='5b0cbff4f6007436919445a7', description='null'}-159.65.157.17:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:957}] to 159.65.157.17:27017
+2018-05-29 08:20:33.255  INFO 13969 --- [cluster-ClusterId{value='5b0cbff4f6007436919445a7', description='null'}-159.65.157.17:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=159.65.157.17:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 4]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=518641985}
+2018-05-29 08:56:42.424  INFO 13969 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-29 08:56:42.426  INFO 13969 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-29 08:56:42.469  INFO 13969 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 41 ms
+2018-05-29 08:56:42.673  INFO 13969 --- [http-nio-8080-exec-1] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=processJob]] launched with the following parameters: [{time=1527564402522}]
+2018-05-29 08:56:42.716  INFO 13969 --- [http-nio-8080-exec-1] o.s.batch.core.job.SimpleStepHandler     : Executing step: [orderStep1]
+2018-05-29 08:56:48.581  INFO 13969 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:959}] to 159.65.157.17:27017
+2018-05-29 08:57:02.669  INFO 13969 --- [http-nio-8080-exec-1] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=processJob]] completed with the following parameters: [{time=1527564402522}] and the following status: [COMPLETED]
+2018-05-29 09:01:09.069  INFO 13969 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-05-29 09:01:09.069  INFO 13969 --- [RMI TCP Connection(2)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1819916c: startup date [Tue May 29 08:20:25 IST 2018]; root of context hierarchy
+2018-05-29 09:01:09.072  INFO 13969 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-05-29 09:01:09.073  INFO 13969 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-05-29 09:01:09.076  INFO 13969 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2018-05-29 09:01:09.077  INFO 13969 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2018-05-29 09:01:09.078  INFO 13969 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-05-29 09:01:09.082  INFO 13969 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-05-29 09:01:09.083  INFO 13969 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-05-29 09:01:09.084  INFO 13969 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-05-29 09:01:09.590  INFO 13969 --- [RMI TCP Connection(2)-127.0.0.1] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:959}] to 159.65.157.17:27017 because the pool has been closed.
+2018-05-29 09:01:09.592  INFO 13969 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-05-29 09:01:09.601  INFO 13969 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-05-29 09:01:18.358  INFO 16322 --- [restartedMain] c.n.form.NetbotContactFormApplication    : Starting NetbotContactFormApplication on B2ML23319 with PID 16322 (/opt/workspaces/sts_code/netbot-contact-form/bin/main started by bmuthuna in /opt/workspaces/sts_code/netbot-contact-form)
+2018-05-29 09:01:18.359  INFO 16322 --- [restartedMain] c.n.form.NetbotContactFormApplication    : No active profile set, falling back to default profiles: default
+2018-05-29 09:01:18.411  INFO 16322 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@77dae5b6: startup date [Tue May 29 09:01:18 IST 2018]; root of context hierarchy
+2018-05-29 09:01:19.614  INFO 16322 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9e92cd40] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-29 09:01:19.923  INFO 16322 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-05-29 09:01:19.941  INFO 16322 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-29 09:01:19.941  INFO 16322 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-29 09:01:19.945  INFO 16322 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-05-29 09:01:20.007  INFO 16322 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-29 09:01:20.008  INFO 16322 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1597 ms
+2018-05-29 09:01:20.162  INFO 16322 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-05-29 09:01:20.163  INFO 16322 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet webServlet mapped to [/h2-console/*]
+2018-05-29 09:01:20.166  INFO 16322 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-29 09:01:20.166  INFO 16322 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-29 09:01:20.166  INFO 16322 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-29 09:01:20.166  INFO 16322 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-29 09:01:20.658  INFO 16322 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[159.65.157.17:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-05-29 09:01:21.349  INFO 16322 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 09:01:21.688  INFO 16322 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@77dae5b6: startup date [Tue May 29 09:01:18 IST 2018]; root of context hierarchy
+2018-05-29 09:01:21.742  INFO 16322 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/invokejob]}" onto public java.lang.String com.netbot.form.batch.test.JobInvokerController.handle() throws java.lang.Exception
+2018-05-29 09:01:21.745  INFO 16322 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-29 09:01:21.746  INFO 16322 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-29 09:01:21.776  INFO 16322 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 09:01:21.776  INFO 16322 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 09:01:21.938  INFO 16322 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-05-29 09:01:22.063  INFO 16322 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-05-29 09:01:22.071  INFO 16322 --- [restartedMain] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: H2
+2018-05-29 09:01:22.092  INFO 16322 --- [restartedMain] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2018-05-29 09:01:22.111  INFO 16322 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/springframework/batch/core/schema-h2.sql]
+2018-05-29 09:01:22.123  INFO 16322 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/springframework/batch/core/schema-h2.sql] in 12 ms.
+2018-05-29 09:01:22.261  INFO 16322 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/quartz/impl/jdbcjobstore/tables_h2.sql]
+2018-05-29 09:01:22.306  INFO 16322 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/quartz/impl/jdbcjobstore/tables_h2.sql] in 45 ms.
+2018-05-29 09:01:22.349  INFO 16322 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-05-29 09:01:22.360  INFO 16322 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-05-29 09:01:22.361  INFO 16322 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2018-05-29 09:01:22.361  INFO 16322 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-05-29 09:01:22.362  INFO 16322 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-05-29 09:01:22.362  INFO 16322 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-05-29 09:01:22.362  INFO 16322 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2018-05-29 09:01:22.363  INFO 16322 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@34d54173
+2018-05-29 09:01:22.461  INFO 16322 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-05-29 09:01:22.494  INFO 16322 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-05-29 09:01:22.495  INFO 16322 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-29 09:01:22.500  INFO 16322 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-29 09:01:22.505  INFO 16322 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-05-29 09:01:22.505  INFO 16322 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2018-05-29 09:01:22.506  INFO 16322 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-05-29 09:01:22.540  INFO 16322 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-29 09:01:22.550  INFO 16322 --- [restartedMain] c.n.form.NetbotContactFormApplication    : Started NetbotContactFormApplication in 4.564 seconds (JVM running for 5.515)
+2018-05-29 09:01:23.548  INFO 16322 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-05-29 09:01:23.548  INFO 16322 --- [RMI TCP Connection(2)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@77dae5b6: startup date [Tue May 29 09:01:18 IST 2018]; root of context hierarchy
+2018-05-29 09:01:23.551  INFO 16322 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-05-29 09:01:23.551  INFO 16322 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-05-29 09:01:23.553  INFO 16322 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2018-05-29 09:01:23.554  INFO 16322 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2018-05-29 09:01:23.554  INFO 16322 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-05-29 09:01:23.555  INFO 16322 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-05-29 09:01:23.556  INFO 16322 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-05-29 09:01:23.557  INFO 16322 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-05-29 09:01:23.561  INFO 16322 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-05-29 09:01:23.577  INFO 16322 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-05-29 09:24:21.383  INFO 17525 --- [Test worker] c.n.f.NetbotContactFormApplicationTests  : Starting NetbotContactFormApplicationTests on B2ML23319 with PID 17525 (started by bmuthuna in /opt/workspaces/sts_code/netbot-contact-form)
+2018-05-29 09:24:21.388  INFO 17525 --- [Test worker] c.n.f.NetbotContactFormApplicationTests  : No active profile set, falling back to default profiles: default
+2018-05-29 09:24:21.543  INFO 17525 --- [Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@c98bf11: startup date [Tue May 29 09:24:21 IST 2018]; root of context hierarchy
+2018-05-29 09:24:24.862  INFO 17525 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d2e43290] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-29 09:24:25.991  INFO 17525 --- [Test worker] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[159.65.157.17:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-05-29 09:24:27.038  INFO 17525 --- [Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 09:24:27.570  INFO 17525 --- [Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@c98bf11: startup date [Tue May 29 09:24:21 IST 2018]; root of context hierarchy
+2018-05-29 09:24:27.703  INFO 17525 --- [Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/invokejob]}" onto public java.lang.String com.netbot.form.batch.test.JobInvokerController.handle() throws java.lang.Exception
+2018-05-29 09:24:27.708  INFO 17525 --- [Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-29 09:24:27.709  INFO 17525 --- [Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-29 09:24:27.752  INFO 17525 --- [Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 09:24:27.753  INFO 17525 --- [Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 09:24:27.993  INFO 17525 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-05-29 09:24:28.802  INFO 17525 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-05-29 09:24:28.838  INFO 17525 --- [Test worker] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: H2
+2018-05-29 09:24:28.941  INFO 17525 --- [Test worker] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2018-05-29 09:24:29.009  INFO 17525 --- [Test worker] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/springframework/batch/core/schema-h2.sql]
+2018-05-29 09:24:29.056  INFO 17525 --- [Test worker] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/springframework/batch/core/schema-h2.sql] in 44 ms.
+2018-05-29 09:24:29.323  INFO 17525 --- [Test worker] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/quartz/impl/jdbcjobstore/tables_h2.sql]
+2018-05-29 09:24:29.434  INFO 17525 --- [Test worker] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/quartz/impl/jdbcjobstore/tables_h2.sql] in 110 ms.
+2018-05-29 09:24:29.537  INFO 17525 --- [Test worker] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-05-29 09:24:29.610  INFO 17525 --- [Test worker] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-05-29 09:24:29.610  INFO 17525 --- [Test worker] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2018-05-29 09:24:29.611  INFO 17525 --- [Test worker] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-05-29 09:24:29.620  INFO 17525 --- [Test worker] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-05-29 09:24:29.628  INFO 17525 --- [Test worker] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-05-29 09:24:29.629  INFO 17525 --- [Test worker] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2018-05-29 09:24:29.631  INFO 17525 --- [Test worker] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@7ea12105
+2018-05-29 09:24:29.851  INFO 17525 --- [Test worker] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-05-29 09:24:29.852  INFO 17525 --- [Test worker] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2018-05-29 09:24:29.852  INFO 17525 --- [Test worker] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-05-29 09:24:29.871  INFO 17525 --- [Test worker] c.n.f.NetbotContactFormApplicationTests  : Started NetbotContactFormApplicationTests in 9.237 seconds (JVM running for 10.473)
+2018-05-29 09:24:30.014  INFO 17525 --- [Thread-7] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@c98bf11: startup date [Tue May 29 09:24:21 IST 2018]; root of context hierarchy
+2018-05-29 09:24:30.029  INFO 17525 --- [Thread-7] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-05-29 09:24:30.031  INFO 17525 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-05-29 09:24:30.032  INFO 17525 --- [Thread-7] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2018-05-29 09:24:30.033  INFO 17525 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2018-05-29 09:24:30.033  INFO 17525 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-05-29 09:24:30.035  INFO 17525 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-05-29 09:24:30.040  INFO 17525 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-05-29 09:24:30.053  INFO 17525 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-05-29 13:19:28.617  INFO 27606 --- [restartedMain] c.n.form.NetbotContactFormApplication    : Starting NetbotContactFormApplication on B2ML23319 with PID 27606 (/opt/workspaces/sts_code/netbot-contact-form/bin/main started by bmuthuna in /opt/workspaces/sts_code/netbot-contact-form)
+2018-05-29 13:19:28.619  INFO 27606 --- [restartedMain] c.n.form.NetbotContactFormApplication    : No active profile set, falling back to default profiles: default
+2018-05-29 13:19:28.697  INFO 27606 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@62691c71: startup date [Tue May 29 13:19:28 IST 2018]; root of context hierarchy
+2018-05-29 13:19:31.451  INFO 27606 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f9863b84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-29 13:19:32.176  INFO 27606 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-05-29 13:19:32.213  INFO 27606 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-29 13:19:32.214  INFO 27606 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-29 13:19:32.227  INFO 27606 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-05-29 13:19:32.317  INFO 27606 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-29 13:19:32.318  INFO 27606 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3621 ms
+2018-05-29 13:19:32.578  INFO 27606 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-05-29 13:19:32.580  INFO 27606 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet webServlet mapped to [/h2-console/*]
+2018-05-29 13:19:32.586  INFO 27606 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-29 13:19:32.586  INFO 27606 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-29 13:19:32.586  INFO 27606 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-29 13:19:32.587  INFO 27606 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-29 13:19:33.221  INFO 27606 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[159.65.157.17:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-05-29 13:19:33.809  INFO 27606 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 13:19:34.143  INFO 27606 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@62691c71: startup date [Tue May 29 13:19:28 IST 2018]; root of context hierarchy
+2018-05-29 13:19:34.226  INFO 27606 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/invokejob]}" onto public java.lang.String com.netbot.form.batch.test.JobInvokerController.handle() throws java.lang.Exception
+2018-05-29 13:19:34.231  INFO 27606 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-29 13:19:34.231  INFO 27606 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-29 13:19:34.266  INFO 27606 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 13:19:34.267  INFO 27606 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 13:19:34.461  INFO 27606 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-05-29 13:19:34.620  INFO 27606 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-05-29 13:19:34.628  INFO 27606 --- [restartedMain] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: H2
+2018-05-29 13:19:34.651  INFO 27606 --- [restartedMain] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2018-05-29 13:19:34.668  INFO 27606 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/springframework/batch/core/schema-h2.sql]
+2018-05-29 13:19:34.680  INFO 27606 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/springframework/batch/core/schema-h2.sql] in 11 ms.
+2018-05-29 13:19:34.822  INFO 27606 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/quartz/impl/jdbcjobstore/tables_h2.sql]
+2018-05-29 13:19:34.840  INFO 27606 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/quartz/impl/jdbcjobstore/tables_h2.sql] in 18 ms.
+2018-05-29 13:19:34.889  INFO 27606 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-05-29 13:19:34.902  INFO 27606 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-05-29 13:19:34.902  INFO 27606 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2018-05-29 13:19:34.903  INFO 27606 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-05-29 13:19:34.904  INFO 27606 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-05-29 13:19:34.904  INFO 27606 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-05-29 13:19:34.909  INFO 27606 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2018-05-29 13:19:34.909  INFO 27606 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@3b6d44b0
+2018-05-29 13:19:35.019  INFO 27606 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-05-29 13:19:35.060  INFO 27606 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-05-29 13:19:35.061  INFO 27606 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-29 13:19:35.067  INFO 27606 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-29 13:19:35.071  INFO 27606 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-05-29 13:19:35.071  INFO 27606 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2018-05-29 13:19:35.071  INFO 27606 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-05-29 13:19:35.099  INFO 27606 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-29 13:19:35.108  INFO 27606 --- [restartedMain] c.n.form.NetbotContactFormApplication    : Started NetbotContactFormApplication in 6.985 seconds (JVM running for 8.077)
+2018-05-29 13:19:36.921  INFO 27606 --- [cluster-ClusterId{value='5b0d060df600746bd6ffb9a4', description='null'}-159.65.157.17:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:991}] to 159.65.157.17:27017
+2018-05-29 13:19:37.434  INFO 27606 --- [cluster-ClusterId{value='5b0d060df600746bd6ffb9a4', description='null'}-159.65.157.17:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=159.65.157.17:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 4]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=509039238}
+2018-05-29 13:19:40.348  INFO 27606 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-29 13:19:40.348  INFO 27606 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-29 13:19:40.383  INFO 27606 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 35 ms
+2018-05-29 13:19:40.764  INFO 27606 --- [http-nio-8080-exec-1] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=processJob]] launched with the following parameters: [{time=1527580180455}]
+2018-05-29 13:19:40.807  INFO 27606 --- [http-nio-8080-exec-1] o.s.batch.core.job.SimpleStepHandler     : Executing step: [orderStep1]
+2018-05-29 13:19:50.490  INFO 27606 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:992}] to 159.65.157.17:27017
+2018-05-29 13:20:47.791  INFO 27606 --- [http-nio-8080-exec-1] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=processJob]] completed with the following parameters: [{time=1527580180455}] and the following status: [COMPLETED]
+2018-05-29 13:21:37.691  INFO 27606 --- [Thread-7] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@62691c71: startup date [Tue May 29 13:19:28 IST 2018]; root of context hierarchy
+2018-05-29 13:21:37.694  INFO 27606 --- [Thread-7] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-05-29 13:21:37.694  INFO 27606 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-05-29 13:21:37.695  INFO 27606 --- [Thread-7] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2018-05-29 13:21:37.696  INFO 27606 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2018-05-29 13:21:37.696  INFO 27606 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-05-29 13:21:37.697  INFO 27606 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-05-29 13:21:37.699  INFO 27606 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-05-29 13:21:37.701  INFO 27606 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-05-29 13:21:38.210  INFO 27606 --- [Thread-7] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:992}] to 159.65.157.17:27017 because the pool has been closed.
+2018-05-29 13:21:38.213  INFO 27606 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-05-29 13:21:38.237  INFO 27606 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-05-29 13:21:38.583  INFO 27606 --- [restartedMain] c.n.form.NetbotContactFormApplication    : Starting NetbotContactFormApplication on B2ML23319 with PID 27606 (/opt/workspaces/sts_code/netbot-contact-form/bin/main started by bmuthuna in /opt/workspaces/sts_code/netbot-contact-form)
+2018-05-29 13:21:38.584  INFO 27606 --- [restartedMain] c.n.form.NetbotContactFormApplication    : No active profile set, falling back to default profiles: default
+2018-05-29 13:21:38.588  INFO 27606 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@20b88153: startup date [Tue May 29 13:21:38 IST 2018]; root of context hierarchy
+2018-05-29 13:23:23.137  INFO 27907 --- [restartedMain] c.n.form.NetbotContactFormApplication    : Starting NetbotContactFormApplication on B2ML23319 with PID 27907 (/opt/workspaces/sts_code/netbot-contact-form/bin/main started by bmuthuna in /opt/workspaces/sts_code/netbot-contact-form)
+2018-05-29 13:23:23.140  INFO 27907 --- [restartedMain] c.n.form.NetbotContactFormApplication    : No active profile set, falling back to default profiles: default
+2018-05-29 13:23:23.187  INFO 27907 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@21232a93: startup date [Tue May 29 13:23:23 IST 2018]; root of context hierarchy
+2018-05-29 13:23:24.801  INFO 27907 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5ace086c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-29 13:23:25.184  INFO 27907 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-05-29 13:23:25.202  INFO 27907 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-29 13:23:25.203  INFO 27907 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-29 13:23:25.209  INFO 27907 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-05-29 13:23:25.301  INFO 27907 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-29 13:23:25.301  INFO 27907 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2114 ms
+2018-05-29 13:23:25.519  INFO 27907 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-05-29 13:23:25.520  INFO 27907 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet webServlet mapped to [/h2-console/*]
+2018-05-29 13:23:25.524  INFO 27907 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-29 13:23:25.524  INFO 27907 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-29 13:23:25.525  INFO 27907 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-29 13:23:25.525  INFO 27907 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-29 13:23:26.005  INFO 27907 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[159.65.157.17:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-05-29 13:23:26.639  INFO 27907 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 13:23:27.128  INFO 27907 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@21232a93: startup date [Tue May 29 13:23:23 IST 2018]; root of context hierarchy
+2018-05-29 13:23:27.238  INFO 27907 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/invokejob]}" onto public java.lang.String com.netbot.form.batch.test.JobInvokerController.handle() throws java.lang.Exception
+2018-05-29 13:23:27.248  INFO 27907 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-29 13:23:27.252  INFO 27907 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-29 13:23:27.309  INFO 27907 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 13:23:27.309  INFO 27907 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 13:23:27.559  INFO 27907 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-05-29 13:23:27.790  INFO 27907 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-05-29 13:23:27.803  INFO 27907 --- [restartedMain] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: H2
+2018-05-29 13:23:27.818  INFO 27907 --- [restartedMain] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2018-05-29 13:23:27.852  INFO 27907 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/springframework/batch/core/schema-h2.sql]
+2018-05-29 13:23:27.863  INFO 27907 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/springframework/batch/core/schema-h2.sql] in 11 ms.
+2018-05-29 13:23:28.020  INFO 27907 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/quartz/impl/jdbcjobstore/tables_h2.sql]
+2018-05-29 13:23:28.034  INFO 27907 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/quartz/impl/jdbcjobstore/tables_h2.sql] in 14 ms.
+2018-05-29 13:23:28.075  INFO 27907 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-05-29 13:23:28.091  INFO 27907 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-05-29 13:23:28.091  INFO 27907 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2018-05-29 13:23:28.092  INFO 27907 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-05-29 13:23:28.094  INFO 27907 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-05-29 13:23:28.096  INFO 27907 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-05-29 13:23:28.096  INFO 27907 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2018-05-29 13:23:28.096  INFO 27907 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@4e4f93f5
+2018-05-29 13:23:28.205  INFO 27907 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-05-29 13:23:28.240  INFO 27907 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-05-29 13:23:28.241  INFO 27907 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-29 13:23:28.247  INFO 27907 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-29 13:23:28.251  INFO 27907 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-05-29 13:23:28.251  INFO 27907 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2018-05-29 13:23:28.252  INFO 27907 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-05-29 13:23:28.280  INFO 27907 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-29 13:23:28.285  INFO 27907 --- [restartedMain] c.n.form.NetbotContactFormApplication    : Started NetbotContactFormApplication in 5.673 seconds (JVM running for 6.434)
+2018-05-29 13:23:29.686  INFO 27907 --- [cluster-ClusterId{value='5b0d06f6f600746d03d8ca4d', description='null'}-159.65.157.17:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:993}] to 159.65.157.17:27017
+2018-05-29 13:23:30.201  INFO 27907 --- [cluster-ClusterId{value='5b0d06f6f600746d03d8ca4d', description='null'}-159.65.157.17:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=159.65.157.17:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 4]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=510506793}
+2018-05-29 13:24:00.773  INFO 27907 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-29 13:24:00.773  INFO 27907 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-29 13:24:00.885  INFO 27907 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 111 ms
+2018-05-29 13:24:01.060  INFO 27907 --- [http-nio-8080-exec-1] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=processJob]] launched with the following parameters: [{time=1527580440945}]
+2018-05-29 13:24:01.110  INFO 27907 --- [http-nio-8080-exec-1] o.s.batch.core.job.SimpleStepHandler     : Executing step: [orderStep1]
+2018-05-29 13:24:09.019  INFO 27907 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:994}] to 159.65.157.17:27017
+2018-05-29 13:24:59.844  INFO 27907 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-05-29 13:24:59.845  INFO 27907 --- [RMI TCP Connection(2)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@21232a93: startup date [Tue May 29 13:23:23 IST 2018]; root of context hierarchy
+2018-05-29 13:24:59.849  INFO 27907 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-05-29 13:24:59.850  INFO 27907 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-05-29 13:24:59.855  INFO 27907 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2018-05-29 13:24:59.856  INFO 27907 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2018-05-29 13:24:59.856  INFO 27907 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-05-29 13:24:59.858  INFO 27907 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-05-29 13:24:59.859  INFO 27907 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-05-29 13:24:59.860  INFO 27907 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-05-29 13:25:00.371  INFO 27907 --- [RMI TCP Connection(2)-127.0.0.1] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:994}] to 159.65.157.17:27017 because the pool has been closed.
+2018-05-29 13:25:00.374  INFO 27907 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-05-29 13:25:00.378  INFO 27907 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-05-29 13:27:16.443  INFO 28190 --- [restartedMain] c.n.form.NetbotContactFormApplication    : Starting NetbotContactFormApplication on B2ML23319 with PID 28190 (/opt/workspaces/sts_code/netbot-contact-form/bin/main started by bmuthuna in /opt/workspaces/sts_code/netbot-contact-form)
+2018-05-29 13:27:16.444  INFO 28190 --- [restartedMain] c.n.form.NetbotContactFormApplication    : No active profile set, falling back to default profiles: default
+2018-05-29 13:27:16.498  INFO 28190 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@715d1d0c: startup date [Tue May 29 13:27:16 IST 2018]; root of context hierarchy
+2018-05-29 13:27:18.014  INFO 28190 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$55ca60d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-29 13:27:18.427  INFO 28190 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-05-29 13:27:18.444  INFO 28190 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-29 13:27:18.444  INFO 28190 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-29 13:27:18.448  INFO 28190 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-05-29 13:27:18.518  INFO 28190 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-29 13:27:18.518  INFO 28190 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2020 ms
+2018-05-29 13:27:18.683  INFO 28190 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-05-29 13:27:18.687  INFO 28190 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet webServlet mapped to [/h2-console/*]
+2018-05-29 13:27:18.690  INFO 28190 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-29 13:27:18.691  INFO 28190 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-29 13:27:18.691  INFO 28190 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-29 13:27:18.691  INFO 28190 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-29 13:27:19.202  INFO 28190 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[159.65.157.17:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-05-29 13:27:19.910  INFO 28190 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 13:27:20.212  INFO 28190 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@715d1d0c: startup date [Tue May 29 13:27:16 IST 2018]; root of context hierarchy
+2018-05-29 13:27:20.261  INFO 28190 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/invokejob]}" onto public java.lang.String com.netbot.form.controller.JobInvokerController.handle() throws java.lang.Exception
+2018-05-29 13:27:20.265  INFO 28190 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-29 13:27:20.265  INFO 28190 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-29 13:27:20.308  INFO 28190 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 13:27:20.308  INFO 28190 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 13:27:20.488  INFO 28190 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-05-29 13:27:20.616  INFO 28190 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-05-29 13:27:20.633  INFO 28190 --- [restartedMain] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: H2
+2018-05-29 13:27:20.655  INFO 28190 --- [restartedMain] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2018-05-29 13:27:20.674  INFO 28190 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/springframework/batch/core/schema-h2.sql]
+2018-05-29 13:27:20.686  INFO 28190 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/springframework/batch/core/schema-h2.sql] in 12 ms.
+2018-05-29 13:27:20.817  INFO 28190 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/quartz/impl/jdbcjobstore/tables_h2.sql]
+2018-05-29 13:27:20.832  INFO 28190 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/quartz/impl/jdbcjobstore/tables_h2.sql] in 15 ms.
+2018-05-29 13:27:20.867  INFO 28190 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-05-29 13:27:20.890  INFO 28190 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-05-29 13:27:20.891  INFO 28190 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2018-05-29 13:27:20.892  INFO 28190 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-05-29 13:27:20.894  INFO 28190 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-05-29 13:27:20.894  INFO 28190 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-05-29 13:27:20.894  INFO 28190 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2018-05-29 13:27:20.895  INFO 28190 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@7afe9498
+2018-05-29 13:27:20.998  INFO 28190 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-05-29 13:27:21.044  INFO 28190 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-05-29 13:27:21.045  INFO 28190 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-29 13:27:21.051  INFO 28190 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-29 13:27:21.056  INFO 28190 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-05-29 13:27:21.056  INFO 28190 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2018-05-29 13:27:21.056  INFO 28190 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-05-29 13:27:21.093  INFO 28190 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-29 13:27:21.098  INFO 28190 --- [restartedMain] c.n.form.NetbotContactFormApplication    : Started NetbotContactFormApplication in 5.071 seconds (JVM running for 5.88)
+2018-05-29 13:27:23.125  INFO 28190 --- [cluster-ClusterId{value='5b0d07dff600746e1e6c03ee', description='null'}-159.65.157.17:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:995}] to 159.65.157.17:27017
+2018-05-29 13:27:23.678  INFO 28190 --- [cluster-ClusterId{value='5b0d07dff600746e1e6c03ee', description='null'}-159.65.157.17:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=159.65.157.17:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 4]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=549176281}
+2018-05-29 13:29:01.260  INFO 28190 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-29 13:29:01.260  INFO 28190 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-29 13:29:01.308  INFO 28190 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 48 ms
+2018-05-29 13:29:01.456  INFO 28190 --- [http-nio-8080-exec-1] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=processJob]] launched with the following parameters: [{time=1527580741357}]
+2018-05-29 13:29:01.484  INFO 28190 --- [http-nio-8080-exec-1] o.s.batch.core.job.SimpleStepHandler     : Executing step: [orderStep1]
+2018-05-29 13:29:09.278  INFO 28190 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:996}] to 159.65.157.17:27017
+2018-05-29 13:31:00.120 ERROR 28190 --- [http-nio-8080-exec-1] o.s.batch.core.step.AbstractStep         : Encountered an error executing step orderStep1 in job processJob
+
+java.lang.NullPointerException: null
+	at com.netbot.form.batch.Writer.write(Writer.java:22) ~[main/:na]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.writeItems(SimpleChunkProcessor.java:185) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.doWrite(SimpleChunkProcessor.java:151) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.write(SimpleChunkProcessor.java:284) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.process(SimpleChunkProcessor.java:209) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.step.item.ChunkOrientedTasklet.execute(ChunkOrientedTasklet.java:75) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:406) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:330) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) ~[spring-tx-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$2.doInChunkContext(TaskletStep.java:272) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.scope.context.StepContextRepeatCallback.doInIteration(StepContextRepeatCallback.java:81) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:375) ~[spring-batch-infrastructure-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:215) ~[spring-batch-infrastructure-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:145) ~[spring-batch-infrastructure-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:257) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:200) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:148) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.job.flow.JobFlowExecutor.executeStep(JobFlowExecutor.java:66) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.job.flow.support.state.StepState.handle(StepState.java:67) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.job.flow.support.SimpleFlow.resume(SimpleFlow.java:169) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.job.flow.support.SimpleFlow.start(SimpleFlow.java:144) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.job.flow.FlowJob.doExecute(FlowJob.java:136) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:308) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:141) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50) [spring-core-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:134) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) [spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:197) [spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:127) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) [spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) [spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at com.sun.proxy.$Proxy84.run(Unknown Source) [na:na]
+	at com.netbot.form.controller.JobInvokerController.handle(JobInvokerController.java:25) [main/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_144]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_144]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_144]
+
+2018-05-29 13:31:00.145  INFO 28190 --- [http-nio-8080-exec-1] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=processJob]] completed with the following parameters: [{time=1527580741357}] and the following status: [FAILED]
+2018-05-29 13:31:50.805  INFO 28190 --- [http-nio-8080-exec-4] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=processJob]] launched with the following parameters: [{time=1527580910785}]
+2018-05-29 13:31:50.825  INFO 28190 --- [http-nio-8080-exec-4] o.s.batch.core.job.SimpleStepHandler     : Executing step: [orderStep1]
+2018-05-29 13:31:58.208  INFO 28190 --- [http-nio-8080-exec-4] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=processJob]] completed with the following parameters: [{time=1527580910785}] and the following status: [COMPLETED]
+2018-05-29 13:32:31.672  INFO 28190 --- [http-nio-8080-exec-6] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=processJob]] launched with the following parameters: [{time=1527580951651}]
+2018-05-29 13:32:31.689  INFO 28190 --- [http-nio-8080-exec-6] o.s.batch.core.job.SimpleStepHandler     : Executing step: [orderStep1]
+2018-05-29 13:40:46.684 ERROR 28190 --- [http-nio-8080-exec-6] o.s.batch.core.step.AbstractStep         : Encountered an error executing step orderStep1 in job processJob
+
+java.lang.NullPointerException: null
+	at com.netbot.form.batch.Writer.write(Writer.java:22) ~[main/:na]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.writeItems(SimpleChunkProcessor.java:185) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.doWrite(SimpleChunkProcessor.java:151) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.write(SimpleChunkProcessor.java:284) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.process(SimpleChunkProcessor.java:209) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.step.item.ChunkOrientedTasklet.execute(ChunkOrientedTasklet.java:75) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:406) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:330) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) ~[spring-tx-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$2.doInChunkContext(TaskletStep.java:272) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.scope.context.StepContextRepeatCallback.doInIteration(StepContextRepeatCallback.java:81) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:375) ~[spring-batch-infrastructure-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:215) ~[spring-batch-infrastructure-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:145) ~[spring-batch-infrastructure-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:257) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:200) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:148) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.job.flow.JobFlowExecutor.executeStep(JobFlowExecutor.java:66) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.job.flow.support.state.StepState.handle(StepState.java:67) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.job.flow.support.SimpleFlow.resume(SimpleFlow.java:169) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.job.flow.support.SimpleFlow.start(SimpleFlow.java:144) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.job.flow.FlowJob.doExecute(FlowJob.java:136) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:308) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:141) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50) [spring-core-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:134) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) [spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:197) [spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:127) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) [spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) [spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at com.sun.proxy.$Proxy84.run(Unknown Source) [na:na]
+	at com.netbot.form.controller.JobInvokerController.handle(JobInvokerController.java:25) [main/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_144]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_144]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_144]
+
+2018-05-29 13:40:46.707  INFO 28190 --- [http-nio-8080-exec-6] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=processJob]] completed with the following parameters: [{time=1527580951651}] and the following status: [FAILED]
+2018-05-29 13:41:42.002  INFO 28190 --- [http-nio-8080-exec-1] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=processJob]] launched with the following parameters: [{time=1527581501988}]
+2018-05-29 13:41:42.024  INFO 28190 --- [http-nio-8080-exec-1] o.s.batch.core.job.SimpleStepHandler     : Executing step: [orderStep1]
+2018-05-29 13:41:48.344  INFO 28190 --- [http-nio-8080-exec-1] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=processJob]] completed with the following parameters: [{time=1527581501988}] and the following status: [COMPLETED]
+2018-05-29 13:42:48.494  INFO 28190 --- [http-nio-8080-exec-8] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=processJob]] launched with the following parameters: [{time=1527581568486}]
+2018-05-29 13:42:48.518  INFO 28190 --- [http-nio-8080-exec-8] o.s.batch.core.job.SimpleStepHandler     : Executing step: [orderStep1]
+2018-05-29 13:44:46.117  INFO 28780 --- [restartedMain] c.n.form.NetbotContactFormApplication    : Starting NetbotContactFormApplication on B2ML23319 with PID 28780 (/opt/workspaces/sts_code/netbot-contact-form/bin/main started by bmuthuna in /opt/workspaces/sts_code/netbot-contact-form)
+2018-05-29 13:44:46.119  INFO 28780 --- [restartedMain] c.n.form.NetbotContactFormApplication    : No active profile set, falling back to default profiles: default
+2018-05-29 13:44:46.168  INFO 28780 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@9ac1076: startup date [Tue May 29 13:44:46 IST 2018]; root of context hierarchy
+2018-05-29 13:44:47.674  INFO 28780 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6afa5b4a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-29 13:44:48.125  INFO 28780 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-05-29 13:44:48.144  INFO 28780 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-29 13:44:48.145  INFO 28780 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-29 13:44:48.149  INFO 28780 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-05-29 13:44:48.226  INFO 28780 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-29 13:44:48.226  INFO 28780 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2058 ms
+2018-05-29 13:44:48.420  INFO 28780 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-05-29 13:44:48.424  INFO 28780 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet webServlet mapped to [/h2-console/*]
+2018-05-29 13:44:48.429  INFO 28780 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-29 13:44:48.430  INFO 28780 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-29 13:44:48.430  INFO 28780 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-29 13:44:48.430  INFO 28780 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-29 13:44:48.890  INFO 28780 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[159.65.157.17:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-05-29 13:44:49.743  INFO 28780 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 13:44:50.201  INFO 28780 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@9ac1076: startup date [Tue May 29 13:44:46 IST 2018]; root of context hierarchy
+2018-05-29 13:44:50.249  INFO 28780 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/invokejob]}" onto public java.lang.String com.netbot.form.controller.JobInvokerController.handle() throws java.lang.Exception
+2018-05-29 13:44:50.253  INFO 28780 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-29 13:44:50.253  INFO 28780 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-29 13:44:50.283  INFO 28780 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 13:44:50.283  INFO 28780 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 13:44:50.435  INFO 28780 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-05-29 13:44:50.562  INFO 28780 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-05-29 13:44:50.570  INFO 28780 --- [restartedMain] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: H2
+2018-05-29 13:44:50.594  INFO 28780 --- [restartedMain] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2018-05-29 13:44:50.612  INFO 28780 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/springframework/batch/core/schema-h2.sql]
+2018-05-29 13:44:50.623  INFO 28780 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/springframework/batch/core/schema-h2.sql] in 11 ms.
+2018-05-29 13:44:50.738  INFO 28780 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/quartz/impl/jdbcjobstore/tables_h2.sql]
+2018-05-29 13:44:50.760  INFO 28780 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/quartz/impl/jdbcjobstore/tables_h2.sql] in 22 ms.
+2018-05-29 13:44:50.795  INFO 28780 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-05-29 13:44:50.807  INFO 28780 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-05-29 13:44:50.807  INFO 28780 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2018-05-29 13:44:50.808  INFO 28780 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-05-29 13:44:50.810  INFO 28780 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-05-29 13:44:50.814  INFO 28780 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-05-29 13:44:50.815  INFO 28780 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2018-05-29 13:44:50.816  INFO 28780 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@19004103
+2018-05-29 13:44:50.920  INFO 28780 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-05-29 13:44:50.982  INFO 28780 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-05-29 13:44:50.984  INFO 28780 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-29 13:44:50.990  INFO 28780 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-29 13:44:51.006  INFO 28780 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-05-29 13:44:51.006  INFO 28780 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2018-05-29 13:44:51.007  INFO 28780 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-05-29 13:44:51.081  INFO 28780 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-29 13:44:51.086  INFO 28780 --- [restartedMain] c.n.form.NetbotContactFormApplication    : Started NetbotContactFormApplication in 5.489 seconds (JVM running for 6.612)
+2018-05-29 13:44:52.639  INFO 28780 --- [cluster-ClusterId{value='5b0d0bf8f60074706c535bb7', description='null'}-159.65.157.17:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:997}] to 159.65.157.17:27017
+2018-05-29 13:44:53.150  INFO 28780 --- [cluster-ClusterId{value='5b0d0bf8f60074706c535bb7', description='null'}-159.65.157.17:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=159.65.157.17:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 4]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=507575857}
+2018-05-29 13:44:54.774  INFO 28780 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-29 13:44:54.775  INFO 28780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-29 13:44:54.789  INFO 28780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+2018-05-29 13:44:54.919  INFO 28780 --- [http-nio-8080-exec-1] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=processJob]] launched with the following parameters: [{time=1527581694816}]
+2018-05-29 13:44:54.937  INFO 28780 --- [http-nio-8080-exec-1] o.s.batch.core.job.SimpleStepHandler     : Executing step: [orderStep1]
+2018-05-29 13:44:58.614  INFO 28780 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:998}] to 159.65.157.17:27017
+2018-05-29 14:34:51.384  INFO 31560 --- [restartedMain] c.n.form.NetbotContactFormApplication    : Starting NetbotContactFormApplication on B2ML23319 with PID 31560 (/opt/workspaces/sts_code/netbot-contact-form/bin/main started by bmuthuna in /opt/workspaces/sts_code/netbot-contact-form)
+2018-05-29 14:34:51.386  INFO 31560 --- [restartedMain] c.n.form.NetbotContactFormApplication    : No active profile set, falling back to default profiles: default
+2018-05-29 14:34:51.435  INFO 31560 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@36aa4132: startup date [Tue May 29 14:34:51 IST 2018]; root of context hierarchy
+2018-05-29 14:34:53.330  INFO 31560 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f0b056b7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-29 14:34:53.941  INFO 31560 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-05-29 14:34:53.977  INFO 31560 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-29 14:34:53.978  INFO 31560 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-29 14:34:53.985  INFO 31560 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-05-29 14:34:54.101  INFO 31560 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-29 14:34:54.102  INFO 31560 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2667 ms
+2018-05-29 14:34:54.338  INFO 31560 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-05-29 14:34:54.340  INFO 31560 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet webServlet mapped to [/h2-console/*]
+2018-05-29 14:34:54.343  INFO 31560 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-29 14:34:54.343  INFO 31560 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-29 14:34:54.343  INFO 31560 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-29 14:34:54.343  INFO 31560 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-29 14:34:54.905  INFO 31560 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[159.65.157.17:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-05-29 14:34:55.891  INFO 31560 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 14:34:56.407  INFO 31560 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@36aa4132: startup date [Tue May 29 14:34:51 IST 2018]; root of context hierarchy
+2018-05-29 14:34:56.505  INFO 31560 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/invokejob]}" onto public java.lang.String com.netbot.form.controller.JobInvokerController.handle() throws java.lang.Exception
+2018-05-29 14:34:56.515  INFO 31560 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-29 14:34:56.516  INFO 31560 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-29 14:34:56.573  INFO 31560 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 14:34:56.574  INFO 31560 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 14:34:56.839  INFO 31560 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-05-29 14:34:57.114  INFO 31560 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-05-29 14:34:57.131  INFO 31560 --- [restartedMain] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: H2
+2018-05-29 14:34:57.154  INFO 31560 --- [restartedMain] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2018-05-29 14:34:57.176  INFO 31560 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/springframework/batch/core/schema-h2.sql]
+2018-05-29 14:34:57.188  INFO 31560 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/springframework/batch/core/schema-h2.sql] in 12 ms.
+2018-05-29 14:34:57.345  INFO 31560 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/quartz/impl/jdbcjobstore/tables_h2.sql]
+2018-05-29 14:34:57.359  INFO 31560 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/quartz/impl/jdbcjobstore/tables_h2.sql] in 14 ms.
+2018-05-29 14:34:57.396  INFO 31560 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-05-29 14:34:57.408  INFO 31560 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-05-29 14:34:57.408  INFO 31560 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2018-05-29 14:34:57.409  INFO 31560 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-05-29 14:34:57.420  INFO 31560 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-05-29 14:34:57.421  INFO 31560 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-05-29 14:34:57.421  INFO 31560 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2018-05-29 14:34:57.421  INFO 31560 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@7ab49155
+2018-05-29 14:34:57.542  INFO 31560 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-05-29 14:34:57.577  INFO 31560 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-05-29 14:34:57.579  INFO 31560 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-29 14:34:57.584  INFO 31560 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-29 14:34:57.588  INFO 31560 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-05-29 14:34:57.589  INFO 31560 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2018-05-29 14:34:57.589  INFO 31560 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-05-29 14:34:57.614  INFO 31560 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-29 14:34:57.627  INFO 31560 --- [restartedMain] c.n.form.NetbotContactFormApplication    : Started NetbotContactFormApplication in 6.6 seconds (JVM running for 7.808)
+2018-05-29 14:34:58.581  INFO 31560 --- [cluster-ClusterId{value='5b0d17b6f600747b488100dc', description='null'}-159.65.157.17:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:1001}] to 159.65.157.17:27017
+2018-05-29 14:34:59.079  INFO 31560 --- [cluster-ClusterId{value='5b0d17b6f600747b488100dc', description='null'}-159.65.157.17:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=159.65.157.17:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 4]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=494922398}
+2018-05-29 14:35:09.558  INFO 31560 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-29 14:35:09.560  INFO 31560 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-29 14:35:09.610  INFO 31560 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 50 ms
+2018-05-29 14:35:09.822  INFO 31560 --- [http-nio-8080-exec-1] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=processJob]] launched with the following parameters: [{time=1527584709685}]
+2018-05-29 14:35:09.855  INFO 31560 --- [http-nio-8080-exec-1] o.s.batch.core.job.SimpleStepHandler     : Executing step: [orderStep1]
+2018-05-29 14:35:13.540  INFO 31560 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:1002}] to 159.65.157.17:27017
+2018-05-29 14:37:53.535 ERROR 31560 --- [http-nio-8080-exec-1] o.s.batch.core.step.AbstractStep         : Encountered an error executing step orderStep1 in job processJob
+
+java.lang.NullPointerException: null
+	at com.netbot.form.batch.Writer.write(Writer.java:22) ~[main/:na]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.writeItems(SimpleChunkProcessor.java:185) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.doWrite(SimpleChunkProcessor.java:151) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.write(SimpleChunkProcessor.java:284) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.process(SimpleChunkProcessor.java:209) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.step.item.ChunkOrientedTasklet.execute(ChunkOrientedTasklet.java:75) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:406) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:330) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) ~[spring-tx-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$2.doInChunkContext(TaskletStep.java:272) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.scope.context.StepContextRepeatCallback.doInIteration(StepContextRepeatCallback.java:81) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:375) ~[spring-batch-infrastructure-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:215) ~[spring-batch-infrastructure-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:145) ~[spring-batch-infrastructure-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:257) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:200) ~[spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:148) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.job.flow.JobFlowExecutor.executeStep(JobFlowExecutor.java:66) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.job.flow.support.state.StepState.handle(StepState.java:67) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.job.flow.support.SimpleFlow.resume(SimpleFlow.java:169) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.job.flow.support.SimpleFlow.start(SimpleFlow.java:144) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.job.flow.FlowJob.doExecute(FlowJob.java:136) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:308) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:141) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50) [spring-core-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:134) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) [spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:197) [spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:127) [spring-batch-core-4.0.1.RELEASE.jar:4.0.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) [spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) [spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at com.sun.proxy.$Proxy84.run(Unknown Source) [na:na]
+	at com.netbot.form.controller.JobInvokerController.handle(JobInvokerController.java:25) [main/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_144]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851) [spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_144]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_144]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.31.jar:8.5.31]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_144]
+
+2018-05-29 14:37:53.549  INFO 31560 --- [http-nio-8080-exec-1] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=processJob]] completed with the following parameters: [{time=1527584709685}] and the following status: [FAILED]
+2018-05-29 14:39:47.629  INFO 31888 --- [restartedMain] c.n.form.NetbotContactFormApplication    : Starting NetbotContactFormApplication on B2ML23319 with PID 31888 (/opt/workspaces/sts_code/netbot-contact-form/bin/main started by bmuthuna in /opt/workspaces/sts_code/netbot-contact-form)
+2018-05-29 14:39:47.630  INFO 31888 --- [restartedMain] c.n.form.NetbotContactFormApplication    : No active profile set, falling back to default profiles: default
+2018-05-29 14:39:47.702  INFO 31888 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@62e3e2f0: startup date [Tue May 29 14:39:47 IST 2018]; root of context hierarchy
+2018-05-29 14:39:49.650  INFO 31888 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bd70ebc4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-29 14:39:49.997  INFO 31888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-05-29 14:39:50.016  INFO 31888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-29 14:39:50.016  INFO 31888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-29 14:39:50.021  INFO 31888 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-05-29 14:39:50.106  INFO 31888 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-29 14:39:50.107  INFO 31888 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2405 ms
+2018-05-29 14:39:50.327  INFO 31888 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-05-29 14:39:50.329  INFO 31888 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet webServlet mapped to [/h2-console/*]
+2018-05-29 14:39:50.332  INFO 31888 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-29 14:39:50.333  INFO 31888 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-29 14:39:50.333  INFO 31888 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-29 14:39:50.333  INFO 31888 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-29 14:39:50.857  INFO 31888 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[159.65.157.17:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-05-29 14:39:51.843  INFO 31888 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 14:39:52.402  INFO 31888 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@62e3e2f0: startup date [Tue May 29 14:39:47 IST 2018]; root of context hierarchy
+2018-05-29 14:39:52.524  INFO 31888 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/invokejob]}" onto public java.lang.String com.netbot.form.controller.JobInvokerController.handle() throws java.lang.Exception
+2018-05-29 14:39:52.533  INFO 31888 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-29 14:39:52.534  INFO 31888 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-29 14:39:52.570  INFO 31888 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 14:39:52.571  INFO 31888 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 14:39:52.822  INFO 31888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-05-29 14:39:53.075  INFO 31888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-05-29 14:39:53.095  INFO 31888 --- [restartedMain] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: H2
+2018-05-29 14:39:53.117  INFO 31888 --- [restartedMain] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2018-05-29 14:39:53.154  INFO 31888 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/springframework/batch/core/schema-h2.sql]
+2018-05-29 14:39:53.177  INFO 31888 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/springframework/batch/core/schema-h2.sql] in 23 ms.
+2018-05-29 14:39:53.393  INFO 31888 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/quartz/impl/jdbcjobstore/tables_h2.sql]
+2018-05-29 14:39:53.423  INFO 31888 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/quartz/impl/jdbcjobstore/tables_h2.sql] in 29 ms.
+2018-05-29 14:39:53.502  INFO 31888 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-05-29 14:39:53.515  INFO 31888 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-05-29 14:39:53.516  INFO 31888 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2018-05-29 14:39:53.520  INFO 31888 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-05-29 14:39:53.524  INFO 31888 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-05-29 14:39:53.525  INFO 31888 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-05-29 14:39:53.525  INFO 31888 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2018-05-29 14:39:53.525  INFO 31888 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@6c253360
+2018-05-29 14:39:53.697  INFO 31888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-05-29 14:39:53.779  INFO 31888 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-05-29 14:39:53.782  INFO 31888 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-29 14:39:53.803  INFO 31888 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-29 14:39:53.814  INFO 31888 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-05-29 14:39:53.814  INFO 31888 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2018-05-29 14:39:53.815  INFO 31888 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-05-29 14:39:53.878  INFO 31888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-29 14:39:53.891  INFO 31888 --- [restartedMain] c.n.form.NetbotContactFormApplication    : Started NetbotContactFormApplication in 6.824 seconds (JVM running for 7.635)
+2018-05-29 14:39:54.567  INFO 31888 --- [cluster-ClusterId{value='5b0d18def600747c90831f6c', description='null'}-159.65.157.17:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:1003}] to 159.65.157.17:27017
+2018-05-29 14:39:55.059  INFO 31888 --- [cluster-ClusterId{value='5b0d18def600747c90831f6c', description='null'}-159.65.157.17:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=159.65.157.17:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 4]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=491273634}
+2018-05-29 14:40:36.004  INFO 31888 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-29 14:40:36.004  INFO 31888 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-29 14:40:36.041  INFO 31888 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 37 ms
+2018-05-29 14:40:36.200  INFO 31888 --- [http-nio-8080-exec-1] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=processJob]] launched with the following parameters: [{time=1527585036079}]
+2018-05-29 14:40:36.226  INFO 31888 --- [http-nio-8080-exec-1] o.s.batch.core.job.SimpleStepHandler     : Executing step: [orderStep1]
+2018-05-29 14:41:02.745  INFO 31888 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:1004}] to 159.65.157.17:27017
+2018-05-29 14:45:50.641  INFO 32111 --- [restartedMain] c.n.form.NetbotContactFormApplication    : Starting NetbotContactFormApplication on B2ML23319 with PID 32111 (/opt/workspaces/sts_code/netbot-contact-form/bin/main started by bmuthuna in /opt/workspaces/sts_code/netbot-contact-form)
+2018-05-29 14:45:50.642  INFO 32111 --- [restartedMain] c.n.form.NetbotContactFormApplication    : No active profile set, falling back to default profiles: default
+2018-05-29 14:45:50.724  INFO 32111 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4fc7ea6: startup date [Tue May 29 14:45:50 IST 2018]; root of context hierarchy
+2018-05-29 14:45:51.912  INFO 32111 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8084311a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-29 14:45:52.221  INFO 32111 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-05-29 14:45:52.239  INFO 32111 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-29 14:45:52.239  INFO 32111 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-29 14:45:52.243  INFO 32111 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-05-29 14:45:52.318  INFO 32111 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-29 14:45:52.318  INFO 32111 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1594 ms
+2018-05-29 14:45:52.505  INFO 32111 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-05-29 14:45:52.507  INFO 32111 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet webServlet mapped to [/h2-console/*]
+2018-05-29 14:45:52.513  INFO 32111 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-29 14:45:52.514  INFO 32111 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-29 14:45:52.515  INFO 32111 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-29 14:45:52.516  INFO 32111 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-29 14:45:53.052  INFO 32111 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[159.65.157.17:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-05-29 14:45:53.748  INFO 32111 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 14:45:54.112  INFO 32111 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4fc7ea6: startup date [Tue May 29 14:45:50 IST 2018]; root of context hierarchy
+2018-05-29 14:45:54.165  INFO 32111 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/invokejob]}" onto public java.lang.String com.netbot.form.controller.JobInvokerController.handle() throws java.lang.Exception
+2018-05-29 14:45:54.169  INFO 32111 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-29 14:45:54.169  INFO 32111 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-29 14:45:54.209  INFO 32111 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 14:45:54.209  INFO 32111 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 14:45:54.377  INFO 32111 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-05-29 14:45:54.509  INFO 32111 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-05-29 14:45:54.524  INFO 32111 --- [restartedMain] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: H2
+2018-05-29 14:45:54.564  INFO 32111 --- [restartedMain] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2018-05-29 14:45:54.604  INFO 32111 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/springframework/batch/core/schema-h2.sql]
+2018-05-29 14:45:54.709  INFO 32111 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/springframework/batch/core/schema-h2.sql] in 105 ms.
+2018-05-29 14:45:54.860  INFO 32111 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/quartz/impl/jdbcjobstore/tables_h2.sql]
+2018-05-29 14:45:54.882  INFO 32111 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/quartz/impl/jdbcjobstore/tables_h2.sql] in 21 ms.
+2018-05-29 14:45:54.943  INFO 32111 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-05-29 14:45:54.968  INFO 32111 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-05-29 14:45:54.968  INFO 32111 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2018-05-29 14:45:54.969  INFO 32111 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-05-29 14:45:54.971  INFO 32111 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-05-29 14:45:54.971  INFO 32111 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-05-29 14:45:54.971  INFO 32111 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2018-05-29 14:45:54.971  INFO 32111 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@ac14226
+2018-05-29 14:45:55.131  INFO 32111 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-05-29 14:45:55.186  INFO 32111 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-05-29 14:45:55.187  INFO 32111 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-29 14:45:55.197  INFO 32111 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-29 14:45:55.202  INFO 32111 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-05-29 14:45:55.203  INFO 32111 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2018-05-29 14:45:55.203  INFO 32111 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-05-29 14:45:55.239  INFO 32111 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-29 14:45:55.247  INFO 32111 --- [restartedMain] c.n.form.NetbotContactFormApplication    : Started NetbotContactFormApplication in 5.005 seconds (JVM running for 5.83)
+2018-05-29 14:45:56.683  INFO 32111 --- [cluster-ClusterId{value='5b0d1a49f600747d6faddaef', description='null'}-159.65.157.17:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:1005}] to 159.65.157.17:27017
+2018-05-29 14:45:57.189  INFO 32111 --- [cluster-ClusterId{value='5b0d1a49f600747d6faddaef', description='null'}-159.65.157.17:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=159.65.157.17:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 4]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=501249224}
+2018-05-29 14:46:09.941  INFO 32111 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-29 14:46:09.947  INFO 32111 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-29 14:46:10.000  INFO 32111 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 50 ms
+2018-05-29 14:46:10.238  INFO 32111 --- [http-nio-8080-exec-1] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=processJob]] launched with the following parameters: [{time=1527585370052}]
+2018-05-29 14:46:10.287  INFO 32111 --- [http-nio-8080-exec-1] o.s.batch.core.job.SimpleStepHandler     : Executing step: [orderStep1]
+2018-05-29 14:46:16.431  INFO 32111 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:1006}] to 159.65.157.17:27017
+2018-05-29 14:46:41.731  INFO 32111 --- [http-nio-8080-exec-1] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=processJob]] completed with the following parameters: [{time=1527585370052}] and the following status: [COMPLETED]
+2018-05-29 14:48:01.411  INFO 32111 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-05-29 14:48:01.411  INFO 32111 --- [RMI TCP Connection(2)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4fc7ea6: startup date [Tue May 29 14:45:50 IST 2018]; root of context hierarchy
+2018-05-29 14:48:01.413  INFO 32111 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-05-29 14:48:01.414  INFO 32111 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-05-29 14:48:01.416  INFO 32111 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2018-05-29 14:48:01.416  INFO 32111 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2018-05-29 14:48:01.416  INFO 32111 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-05-29 14:48:01.417  INFO 32111 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-05-29 14:48:01.417  INFO 32111 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-05-29 14:48:01.418  INFO 32111 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-05-29 14:48:01.915  INFO 32111 --- [RMI TCP Connection(2)-127.0.0.1] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:1006}] to 159.65.157.17:27017 because the pool has been closed.
+2018-05-29 14:48:01.924  INFO 32111 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-05-29 14:48:01.938  INFO 32111 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-05-29 14:56:37.407  INFO 32537 --- [restartedMain] c.n.form.NetbotContactFormApplication    : Starting NetbotContactFormApplication on B2ML23319 with PID 32537 (/opt/workspaces/sts_code/netbot-contact-form/bin/main started by bmuthuna in /opt/workspaces/sts_code/netbot-contact-form)
+2018-05-29 14:56:37.408  INFO 32537 --- [restartedMain] c.n.form.NetbotContactFormApplication    : No active profile set, falling back to default profiles: default
+2018-05-29 14:56:37.452  INFO 32537 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6ad26acd: startup date [Tue May 29 14:56:37 IST 2018]; root of context hierarchy
+2018-05-29 14:56:38.645  INFO 32537 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$56b260fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-29 14:56:38.924  INFO 32537 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-05-29 14:56:38.945  INFO 32537 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-29 14:56:38.945  INFO 32537 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-29 14:56:38.949  INFO 32537 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-05-29 14:56:39.023  INFO 32537 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-29 14:56:39.023  INFO 32537 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1571 ms
+2018-05-29 14:56:39.212  INFO 32537 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-05-29 14:56:39.218  INFO 32537 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet webServlet mapped to [/h2-console/*]
+2018-05-29 14:56:39.221  INFO 32537 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-29 14:56:39.221  INFO 32537 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-29 14:56:39.221  INFO 32537 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-29 14:56:39.222  INFO 32537 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-29 14:56:39.798  INFO 32537 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[159.65.157.17:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-05-29 14:56:40.492  INFO 32537 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 14:56:40.901  INFO 32537 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6ad26acd: startup date [Tue May 29 14:56:37 IST 2018]; root of context hierarchy
+2018-05-29 14:56:40.957  INFO 32537 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/invokejob]}" onto public java.lang.String com.netbot.form.controller.JobInvokerController.handle() throws java.lang.Exception
+2018-05-29 14:56:40.961  INFO 32537 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-29 14:56:40.962  INFO 32537 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-29 14:56:40.991  INFO 32537 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 14:56:40.992  INFO 32537 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-29 14:56:41.151  INFO 32537 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-05-29 14:56:41.293  INFO 32537 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-05-29 14:56:41.300  INFO 32537 --- [restartedMain] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: H2
+2018-05-29 14:56:41.327  INFO 32537 --- [restartedMain] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2018-05-29 14:56:41.353  INFO 32537 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/springframework/batch/core/schema-h2.sql]
+2018-05-29 14:56:41.371  INFO 32537 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/springframework/batch/core/schema-h2.sql] in 17 ms.
+2018-05-29 14:56:41.512  INFO 32537 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/quartz/impl/jdbcjobstore/tables_h2.sql]
+2018-05-29 14:56:41.531  INFO 32537 --- [restartedMain] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/quartz/impl/jdbcjobstore/tables_h2.sql] in 19 ms.
+2018-05-29 14:56:41.569  INFO 32537 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-05-29 14:56:41.581  INFO 32537 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-05-29 14:56:41.581  INFO 32537 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2018-05-29 14:56:41.582  INFO 32537 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-05-29 14:56:41.583  INFO 32537 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-05-29 14:56:41.583  INFO 32537 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-05-29 14:56:41.583  INFO 32537 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2018-05-29 14:56:41.583  INFO 32537 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@2e334959
+2018-05-29 14:56:41.712  INFO 32537 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-05-29 14:56:41.750  INFO 32537 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-05-29 14:56:41.751  INFO 32537 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-29 14:56:41.757  INFO 32537 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-29 14:56:41.762  INFO 32537 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-05-29 14:56:41.762  INFO 32537 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2018-05-29 14:56:41.762  INFO 32537 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-05-29 14:56:41.803  INFO 32537 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-29 14:56:41.806  INFO 32537 --- [restartedMain] c.n.form.NetbotContactFormApplication    : Started NetbotContactFormApplication in 4.751 seconds (JVM running for 5.838)
+2018-05-29 14:56:43.496  INFO 32537 --- [cluster-ClusterId{value='5b0d1ccff600747f1975f512', description='null'}-159.65.157.17:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:1009}] to 159.65.157.17:27017
+2018-05-29 14:56:44.011  INFO 32537 --- [cluster-ClusterId{value='5b0d1ccff600747f1975f512', description='null'}-159.65.157.17:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=159.65.157.17:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 4]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=510147623}
+2018-05-29 14:57:09.037  INFO 32537 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-29 14:57:09.037  INFO 32537 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-29 14:57:09.080  INFO 32537 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 43 ms
+2018-05-29 14:57:09.281  INFO 32537 --- [http-nio-8080-exec-1] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=processJob]] launched with the following parameters: [{time=1527586029130}]
+2018-05-29 14:57:09.327  INFO 32537 --- [http-nio-8080-exec-1] o.s.batch.core.job.SimpleStepHandler     : Executing step: [orderStep1]
+2018-05-29 14:57:16.435  INFO 32537 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:1010}] to 159.65.157.17:27017
+2018-05-29 14:57:16.973  INFO 32537 --- [http-nio-8080-exec-1] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=processJob]] completed with the following parameters: [{time=1527586029130}] and the following status: [COMPLETED]
+2018-05-29 14:58:50.692  INFO 32537 --- [http-nio-8080-exec-4] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=processJob]] launched with the following parameters: [{time=1527586130641}]
+2018-05-29 14:58:50.717  INFO 32537 --- [http-nio-8080-exec-4] o.s.batch.core.job.SimpleStepHandler     : Executing step: [orderStep1]
+2018-05-29 14:59:28.176  INFO 32537 --- [http-nio-8080-exec-4] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=processJob]] completed with the following parameters: [{time=1527586130641}] and the following status: [COMPLETED]
+2018-05-29 15:00:38.346  INFO 32537 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-05-29 15:00:38.347  INFO 32537 --- [RMI TCP Connection(2)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6ad26acd: startup date [Tue May 29 14:56:37 IST 2018]; root of context hierarchy
+2018-05-29 15:00:38.352  INFO 32537 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-05-29 15:00:38.353  INFO 32537 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-05-29 15:00:38.355  INFO 32537 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2018-05-29 15:00:38.355  INFO 32537 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2018-05-29 15:00:38.355  INFO 32537 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-05-29 15:00:38.356  INFO 32537 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-05-29 15:00:38.356  INFO 32537 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-05-29 15:00:38.357  INFO 32537 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-05-29 15:00:38.850  INFO 32537 --- [RMI TCP Connection(2)-127.0.0.1] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:1010}] to 159.65.157.17:27017 because the pool has been closed.
+2018-05-29 15:00:38.858  INFO 32537 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-05-29 15:00:38.874  INFO 32537 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
